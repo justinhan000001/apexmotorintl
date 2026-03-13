@@ -7,7 +7,6 @@ const withNextIntl = createNextIntlPlugin(i18nConfigPath)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
   images: {
     unoptimized: true,
   },
