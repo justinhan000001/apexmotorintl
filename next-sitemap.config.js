@@ -8,29 +8,20 @@ module.exports = {
       href: 'https://apexmotorintl.com/en',
       hreflang: 'en',
     },
-    {
-      href: 'https://apexmotorintl.com/zh',
-      hreflang: 'zh',
-    },
   ],
-  transform: async (config, path) => {
-    // Add alternate language links for each page
+  transform: async (siteConfig, path) => {
     const alternateRefs = [
       {
-        href: `${config.siteUrl}/en${path}`,
+        href: `${siteConfig.siteUrl}/en${path}`,
         hreflang: 'en',
-      },
-      {
-        href: `${config.siteUrl}/zh${path}`,
-        hreflang: 'zh',
       },
     ]
 
     return {
       loc: path,
-      changefreq: config.changefreq,
-      priority: config.priority,
-      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+      changefreq: siteConfig.changefreq,
+      priority: siteConfig.priority,
+      lastmod: siteConfig.autoLastmod ? new Date().toISOString() : undefined,
       alternateRefs,
     }
   },
@@ -41,8 +32,6 @@ module.exports = {
         allow: '/',
       },
     ],
-    additionalSitemaps: [
-      'https://apexmotorintl.com/sitemap.xml',
-    ],
+    additionalSitemaps: ['https://apexmotorintl.com/sitemap.xml'],
   },
 }
