@@ -1,10 +1,7 @@
-import { dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { resolve } from 'node:path'
 import createNextIntlPlugin from 'next-intl/plugin'
 
-const currentFile = fileURLToPath(import.meta.url)
-const currentDir = dirname(currentFile)
-const i18nConfigPath = resolve(currentDir, './lib/i18n.ts')
+const i18nConfigPath = resolve(process.cwd(), 'lib/i18n.ts')
 
 const withNextIntl = createNextIntlPlugin(i18nConfigPath)
 
