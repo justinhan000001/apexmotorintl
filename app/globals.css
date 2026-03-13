@@ -9,6 +9,10 @@
   
   body {
     @apply bg-brand-black text-brand-text antialiased;
+    background-image:
+      radial-gradient(1200px 700px at 85% -10%, rgba(201,166,107,0.14), transparent 62%),
+      radial-gradient(900px 500px at 10% 0%, rgba(255,255,255,0.04), transparent 55%);
+    letter-spacing: 0.005em;
   }
 }
 
@@ -18,29 +22,35 @@
   }
 
   .section-padding {
-    @apply py-16 sm:py-20;
+    @apply py-16 sm:py-24 lg:py-28;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg px-5 py-3 font-semibold
-      bg-brand-accent text-brand-black hover:brightness-110 transition;
+    @apply inline-flex items-center justify-center rounded-md px-5 py-3 font-semibold
+      bg-brand-accent text-brand-black hover:brightness-110 shadow-[0_8px_30px_rgba(201,166,107,0.25)]
+      transition-all duration-200;
   }
   
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-lg px-5 py-3 font-semibold
-      border border-white/15 text-brand-text hover:border-white/30 hover:bg-white/5 transition;
+    @apply inline-flex items-center justify-center rounded-md px-5 py-3 font-semibold
+      border border-white/20 text-brand-text bg-white/[0.02]
+      hover:border-white/35 hover:bg-white/[0.08] transition-all duration-200;
   }
 
   .card {
-    @apply rounded-2xl bg-brand-gray/60 backdrop-blur border border-white/10 shadow-[0_12px_40px_rgba(0,0,0,0.45)] p-6;
+    @apply rounded-xl bg-white/[0.03] border border-white/10 p-6;
+  }
+
+  .section-shell {
+    @apply rounded-2xl border border-white/10 bg-white/[0.02] p-6 sm:p-8;
   }
 
   .section-title {
-    @apply text-3xl sm:text-4xl font-semibold tracking-tight;
+    @apply text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight leading-[1.08];
   }
 
   .section-kicker {
-    @apply text-sm uppercase tracking-[0.18em] text-brand-muted;
+    @apply text-xs uppercase tracking-[0.2em] text-brand-muted;
   }
 
   .muted {

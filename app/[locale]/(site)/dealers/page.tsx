@@ -14,28 +14,40 @@ export default function DealersPage() {
             </p>
           </div>
 
+          <div className="mt-8 section-shell">
+            <h2 className="text-xl font-semibold">Electric Motorcycle Market Opportunity</h2>
+            <p className="muted mt-3 leading-relaxed">
+              Electric motorcycles are gaining traction as riders look for modern performance platforms and lower mechanical complexity in daily operation. Dealers entering early can build regional leadership while the category is still forming.
+            </p>
+          </div>
+
           <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="card">
+            <div className="section-shell">
               <div className="text-sm font-semibold text-brand-text">Why Partner With Us</div>
-              <p className="muted mt-2 text-sm leading-relaxed">
-                A focused electric motorcycle line, clean brand positioning, and support to help you sell and service confidently.
-              </p>
+              <ul className="muted mt-3 text-sm leading-relaxed space-y-2">
+                <li>Growing electric motorcycle category</li>
+                <li>Premium product opportunity</li>
+                <li>Service and support coordination</li>
+                <li>Long-term dealer growth potential</li>
+              </ul>
             </div>
-            <div className="card">
+            <div className="section-shell">
               <div className="text-sm font-semibold text-brand-text">Who We’re Looking For</div>
-              <p className="muted mt-2 text-sm leading-relaxed">
-                Motorcycle shops, powersports dealers, and service partners with strong local reach and a customer-first mindset.
-              </p>
+              <ul className="muted mt-3 text-sm leading-relaxed space-y-2">
+                <li>Motorcycle shops</li>
+                <li>Powersports dealers</li>
+                <li>Service centers</li>
+                <li>Local riding community partners</li>
+              </ul>
             </div>
-            <div className="card">
-              <div className="text-sm font-semibold text-brand-text">Dealer Inquiry</div>
+            <div className="section-shell">
+              <div className="text-sm font-semibold text-brand-text">Contact CTA</div>
               <p className="muted mt-2 text-sm leading-relaxed">
-                Tell us your location, business type, and service capability. We’ll follow up with next steps.
+                Tell us your location, business type, and service capability. We’ll follow up with the next steps.
               </p>
-              <div className="mt-5">
-                <Link href="#contact" className="btn-primary w-full">
-                  Contact Us to Become a Dealer
-                </Link>
+              <div className="mt-5 flex flex-col gap-3">
+                <Link href="#contact" className="btn-primary w-full">Contact Us</Link>
+                <Link href="#contact" className="btn-secondary w-full">Email Us</Link>
               </div>
             </div>
           </div>

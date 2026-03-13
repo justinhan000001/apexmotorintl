@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container-page py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <div className="text-lg font-semibold tracking-tight text-brand-text">Apex Motor Intl</div>
+            <div className="text-lg font-semibold tracking-tight text-brand-text">Apex Motor International</div>
             <p className="muted mt-3 text-sm leading-relaxed">
               Electric motorcycle distribution, dealer network development, and local service support in the United States.
             </p>
@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="section-kicker">Navigation</div>
             <div className="mt-3 grid grid-cols-2 gap-2">
               <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en">Home</a>
-              <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en/products">Products</a>
+              <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en/samurai-noir">Bikes</a>
               <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en/dealers">Dealers</a>
               <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en/service">Service</a>
               <a className="text-brand-text/90 hover:text-brand-text transition-colors" href="/en/about">About</a>
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6 text-xs text-brand-muted flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
-          <div>© {new Date().getFullYear()} Apex Motor Intl. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Apex Motor International. All rights reserved.</div>
           <div className="text-brand-muted">Built for real riding.</div>
         </div>
       </div>

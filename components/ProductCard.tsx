@@ -32,32 +32,25 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="space-y-4">
         <div>
           <h3 className="text-xl font-semibold tracking-tight text-brand-text">{product.name}</h3>
+          <p className="mt-1 text-sm text-brand-accent">{product.tagline}</p>
           <p className="muted mt-2 text-sm leading-relaxed">{product.description}</p>
         </div>
         
-        {product.isFullySpecified && product.specs?.length ? (
+        {product.specs?.length ? (
           <div className="grid grid-cols-2 gap-3 text-sm">
-            {product.specs.map((s) => (
+            {product.specs.slice(0, 4).map((s) => (
               <div key={s.label} className="rounded-lg border border-white/10 bg-white/5 px-3 py-2">
                 <div className="text-xs uppercase tracking-[0.14em] text-brand-muted">{s.label}</div>
                 <div className="mt-1 font-semibold text-brand-text">{s.value}</div>
               </div>
             ))}
           </div>
-        ) : (
-          <div className="rounded-xl border border-white/10 bg-white/5 p-4">
-            <div className="text-sm text-brand-text font-semibold">Key specs available on request.</div>
-            <div className="muted mt-1 text-sm">Contact us for details on configuration, availability, and options.</div>
-          </div>
-        )}
+        ) : null}
 
+        <p className="muted text-sm">Pricing and availability: Contact Us for Details.</p>
         <div className="flex flex-col sm:flex-row gap-3">
-          <Link href={`/en/products#${product.id}`} className="btn-secondary">
-            View Details
-          </Link>
-          <Link href="#contact" className="btn-primary">
-            {product.isFullySpecified ? 'Contact Us' : 'Contact Us for Details'}
-          </Link>
+          <Link href="#contact" className="btn-primary">Contact Us</Link>
+          <Link href="#contact" className="btn-secondary">Email Us</Link>
         </div>
       </div>
     </div>

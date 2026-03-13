@@ -9,7 +9,8 @@ export default function Header() {
 
   const nav = [
     { label: 'Home', href: '/en' },
-    { label: 'Products', href: '/en/products' },
+    { label: 'Samurai Noir', href: '/en/samurai-noir' },
+    { label: 'SkyLeap', href: '/en/skyleap' },
     { label: 'Dealers', href: '/en/dealers' },
     { label: 'Service', href: '/en/service' },
     { label: 'About', href: '/en/about' },
@@ -35,7 +36,7 @@ export default function Header() {
                 />
               </div>
               <span className="text-lg sm:text-xl font-semibold tracking-tight text-brand-text">
-                Apex Motor Intl
+                Apex Motor International
               </span>
             </Link>
           </div>

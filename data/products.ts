@@ -1,6 +1,7 @@
 export interface Product {
   id: string;
   name: string;
+  tagline: string;
   description: string;
   imageSrc?: string;
   specs?: Array<{ label: string; value: string }>;
@@ -12,6 +13,7 @@ export const products: Product[] = [
   {
     id: 'samurai-noir',
     name: 'Samurai Noir',
+    tagline: 'Shadow Unleashed. Power Without Limits.',
     description:
       'High-performance electric motorcycle built for real terrain, quick response, and confident control.',
     imageSrc: '/media/samurai-noir.png',
@@ -28,6 +30,7 @@ export const products: Product[] = [
   {
     id: 'skyleap',
     name: 'SkyLeap',
+    tagline: 'Built to Endure. Ready for Real Terrain.',
     description:
       'A versatile electric motorcycle platform designed for everyday riders and expanding dealer availability.',
     imageSrc: '/media/detail-handlebar.png',
