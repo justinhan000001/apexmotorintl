@@ -5,8 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Apex Motor Intl | Motorcycle Repair & Race Pit Service',
-  description: 'Full lifecycle motorcycle services: repair, maintenance, customization, race support, storage, training, transport, and insurance assistance in Davis.',
+  title: 'Apex Motor Intl | Electric Motorcycles, Dealers & Service',
+  description:
+    'Electric motorcycle distributor, dealer network developer, and service center supporting riders and partners across the United States.',
 }
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html>
       <body className={inter.className}>{children}</body>
     </html>
   )

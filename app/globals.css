@@ -8,24 +8,42 @@
   }
   
   body {
-    @apply bg-brand-light text-brand-dark antialiased;
+    @apply bg-brand-black text-brand-text antialiased;
   }
 }
 
 @layer components {
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20;
+  }
+
   .btn-primary {
-    @apply bg-brand-accent hover:bg-[#d9a22d] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+    @apply inline-flex items-center justify-center rounded-lg px-5 py-3 font-semibold
+      bg-brand-accent text-brand-black hover:brightness-110 transition;
   }
   
   .btn-secondary {
-    @apply border-2 border-brand-accent text-brand-accent hover:bg-brand-accent hover:text-brand-dark font-semibold py-3 px-6 rounded-lg transition-colors duration-200;
+    @apply inline-flex items-center justify-center rounded-lg px-5 py-3 font-semibold
+      border border-white/15 text-brand-text hover:border-white/30 hover:bg-white/5 transition;
   }
-  
-  .section-padding {
-    @apply py-16 px-4 sm:px-6 lg:px-8;
-  }
-  
+
   .card {
-    @apply bg-white rounded-xl shadow-lg p-6 border border-white/10;
+    @apply rounded-2xl bg-brand-gray/60 backdrop-blur border border-white/10 shadow-[0_12px_40px_rgba(0,0,0,0.45)] p-6;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl font-semibold tracking-tight;
+  }
+
+  .section-kicker {
+    @apply text-sm uppercase tracking-[0.18em] text-brand-muted;
+  }
+
+  .muted {
+    @apply text-brand-muted;
   }
 }

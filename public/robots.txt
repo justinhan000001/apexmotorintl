@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://apexmotorintl.com
+
+# Sitemaps
+Sitemap: https://apexmotorintl.com/sitemap.xml

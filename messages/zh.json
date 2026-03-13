@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "storage": "寄存",
+    "training": "培训",
+    "products": "在售商品",
+    "pricing": "价目",
+    "booking": "预约"
+  },
+  "hero": {
+    "title": "戴维斯一站式摩托服务——快速、可靠、透明。",
+    "subtitle": "维修•保养•寄存•运输与赛道支持。",
+    "bookService": "预约服务",
+    "viewProducts": "查看在售商品"
+  },
+  "badges": {
+    "fast": "快速",
+    "reliable": "可靠",
+    "transparent": "透明"
+  },
+  "whyChooseUs": {
+    "title": "为什么选择我们",
+    "bilingual": "双语支持",
+    "mediaBacked": "媒体支持工单",
+    "trackFriendly": "赛道友好（雷山/索诺玛）",
+    "studentFriendly": "学生与寄存友好"
+  },
+  "infoCards": {
+    "repair": {
+      "title": "维修与保养",
+      "description": "专业摩托车维修保养服务，透明定价，质量保证。"
+    },
+    "storage": {
+      "title": "寄存套餐",
+      "description": "安全摩托车寄存选择，灵活条款。价格后续完善。"
+    },
+    "track": {
+      "title": "赛道友好",
+      "description": "为赛车爱好者提供赛道准备和支持服务。"
+    }
+  },
+  "contact": {
+    "name": "Bingyu Chen",
+    "phone": "909-656-2297",
+    "email": "apexmotorintl@gmail.com",
+    "address": "720 Olive Dr Ste F, Davis",
+    "barArd": "BAR ARD #: 后续完善"
+  },
+  "footer": {
+    "businessHours": "营业时间",
+    "hours": "周一至周五: 9AM-6PM | 周六: 9AM-4PM | 周日: 休息"
+  },
+  "products": {
+    "title": "在售商品",
+    "viewDetails": "详情",
+    "bookInstall": "预约安装",
+    "installFrom": "安装起价",
+    "contact": "联系",
+    "priceUnknown": "$xxx",
+    "infoUnknown": "后续完善"
+  },
+  "booking": {
+    "title": "预约服务",
+    "name": "姓名",
+    "phone": "手机",
+    "bikeModel": "车型",
+    "issue": "问题/需求",
+    "preferredTime": "首选时间",
+    "submit": "提交预约",
+    "success": "谢谢！我们会尽快联系您。",
+    "deposit": "定金: $xxx"
+  },
+  "pricing": {
+    "title": "价目",
+    "note": "透明价目——标注 $xxx 的项目稍后确定。",
+    "getQuote": "获取报价",
+    "bookService": "预约服务"
+  },
+  "services": {
+    "title": "服务",
+    "scope": "服务范围",
+    "process": "服务流程",
+    "warranty": "保修",
+    "pricing": "价格: $xxx"
+  },
+  "common": {
+    "priceUnknown": "$xxx",
+    "infoUnknown": "后续完善",
+    "loading": "加载中...",
+    "error": "加载内容时出错"
+  }
+}

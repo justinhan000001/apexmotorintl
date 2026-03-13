@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "storage": "Storage",
+    "training": "Training",
+    "products": "Products",
+    "pricing": "Pricing",
+    "booking": "Booking"
+  },
+  "hero": {
+    "title": "Full-Cycle Motorcycle Care in Davis—Fast, Reliable, Transparent.",
+    "subtitle": "Repair • Maintenance • Storage • Transport & Track Support.",
+    "bookService": "Book Service",
+    "viewProducts": "View Products"
+  },
+  "badges": {
+    "fast": "Fast",
+    "reliable": "Reliable",
+    "transparent": "Transparent"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "bilingual": "Bilingual Support",
+    "mediaBacked": "Media-Backed Work Orders",
+    "trackFriendly": "Track-Friendly (Thunderhill/Sonoma)",
+    "studentFriendly": "Student & Storage-Friendly"
+  },
+  "infoCards": {
+    "repair": {
+      "title": "Repair & Maintenance",
+      "description": "Professional motorcycle repair and maintenance services with transparent pricing and quality guarantees."
+    },
+    "storage": {
+      "title": "Storage Tiers",
+      "description": "Secure motorcycle storage options with flexible terms. Pricing to be refined."
+    },
+    "track": {
+      "title": "Track-Ready",
+      "description": "Track preparation and support services for racing enthusiasts."
+    }
+  },
+  "contact": {
+    "name": "Bingyu Chen",
+    "phone": "909-656-2297",
+    "email": "apexmotorintl@gmail.com",
+    "address": "720 Olive Dr Ste F, Davis",
+    "barArd": "BAR ARD #: To be refined"
+  },
+  "footer": {
+    "businessHours": "Business Hours",
+    "hours": "Mon-Fri: 9AM-6PM | Sat: 9AM-4PM | Sun: Closed"
+  },
+  "products": {
+    "title": "Products",
+    "viewDetails": "View",
+    "bookInstall": "Book Install",
+    "installFrom": "Install from",
+    "contact": "Contact",
+    "priceUnknown": "$xxx",
+    "infoUnknown": "To be refined"
+  },
+  "booking": {
+    "title": "Book Service",
+    "name": "Name",
+    "phone": "Phone",
+    "bikeModel": "Bike Model",
+    "issue": "Issue/Request",
+    "preferredTime": "Preferred Time",
+    "submit": "Submit Booking",
+    "success": "Thank you! We'll contact you soon.",
+    "deposit": "Deposit: $xxx"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "note": "Transparent Pricing—items with $xxx will be finalized soon.",
+    "getQuote": "Get a Quote",
+    "bookService": "Book Service"
+  },
+  "services": {
+    "title": "Services",
+    "scope": "Service Scope",
+    "process": "Our Process",
+    "warranty": "Warranty",
+    "pricing": "Pricing: $xxx"
+  },
+  "common": {
+    "priceUnknown": "$xxx",
+    "infoUnknown": "To be refined",
+    "loading": "Loading...",
+    "error": "Error loading content"
+  }
+}
