@@ -7,6 +7,9 @@ const withNextIntl = createNextIntlPlugin(i18nConfigPath)
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    webpackBuildWorker: true,
+  },
   images: {
     unoptimized: true,
   },
